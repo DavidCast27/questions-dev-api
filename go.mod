@@ -1,6 +1,6 @@
 module github.com/DavidCast27/questions-dev-api
 
-go 1.22.8
+go 1.23.2
 
 require (
 	github.com/bytedance/sonic v1.12.3 // indirect
