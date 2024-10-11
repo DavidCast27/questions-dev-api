@@ -6,7 +6,6 @@ import (
 	"github.com/DavidCast27/questions-dev-api/internal/languages"
 	"github.com/DavidCast27/questions-dev-api/internal/levels"
 	"github.com/DavidCast27/questions-dev-api/internal/scores"
-	"github.com/DavidCast27/questions-dev-api/internal/tags"
 	"time"
 )
 
@@ -17,7 +16,6 @@ type Question struct {
 	Category         categories.Category `json:"category"`
 	Language         languages.Language  `json:"language"`
 	Level            levels.Level        `json:"level"`
-	Tags             []tags.Tag          `json:"tags"`
 	Scores           []scores.Score      `json:"scores"`
 	Answers          []answers.Answer    `json:"answers"`
 	IsMultipleChoice bool                `json:"is_multiple_choice"`
